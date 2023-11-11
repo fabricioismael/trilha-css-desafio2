@@ -1,0 +1,198 @@
+h1,h2,h3,p,body, button{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    height: 100vh;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px;
+    width: 1440px;
+    height: 56px; 
+}
+
+#menu .youtube-icon {
+    width: 90px;
+    height: 20px;
+    margin-left: 32px;
+}
+
+#menu .search-bar {
+    float: left;
+    width: 349px;
+    height: 40px;
+    border: 1px solid #CCC;
+}
+#menu .search-btn {
+    float: left;
+    padding: 8px 14px;
+    width: 57px;
+    height: 44px;
+    border: 1px solid #CCC;
+}
+
+#menu .right .video-icon {
+    margin-right: 24px;
+}
+
+#menu .right .bell-icon {
+    margin-right: 24px;
+}
+#menu .right .avatar-btn {
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+    background-image: url(/assets/icons/icon-of-a-man-wearing-glasses-svgrepo-com.svg);
+    background-size: cover;
+    background-color: white;
+    border: none;
+}
+
+.main-section {
+    display: flex;
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 0 0 75px;
+    max-width: 960px;
+    
+}
+#video h1 {
+    margin-bottom: 16px;
+}
+
+
+.video-image {
+    width: 952px;
+    height: 537px;
+    margin-bottom: 16px;
+    background-size: cover;
+}
+
+#video .video-toolbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#video .channel-info {
+    display: flex;
+    align-items: center;
+}
+
+
+#video .video-toolbar .channel-info .channel-avatar {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 16px;
+    margin-right: 12px;
+    background-image: url(/assets/icons/headphones-svgrepo-com.svg);
+    background-size: cover;
+    border-radius: 42px;
+    border: none;
+}
+
+#video .video-toolbar .follow-btn{
+    width: 159px;
+    height: 40px;
+    margin-left: 42px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+#video .video-toolbar .thumbsUp-btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 42px;
+    margin-right: 10px;
+    background-image: url(/assets/icons/thumbs-up.svg);
+    border: none;
+    background-color: white;
+}
+
+#video .video-toolbar .thumbsDown-btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 42px;
+    margin-right: 10px;
+    background-image: url(/assets/icons/thumbs-down.svg);
+    border: none;
+    background-color: white;
+}
+
+#video .video-toolbar .share-btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 42px;
+    margin-right: 10px;
+    background-image: url(/assets/icons/share-2.svg);
+    border: none;
+    background-color: white;
+}
+
+#video .video-toolbar .download-btn {
+    width: 24px;
+    height: 24px;
+    margin-left: 42px;
+    margin-right: 10px;
+    background-image: url(/assets/icons/download.svg);
+    border: none;
+    background-color: white;
+}
+
+#video .video-desc h2 {
+    margin-bottom: 16px;
+}
+
+#video .video-desc p {
+    width: 510px;
+    color: #515151;
+    font-weight: 400;
+    font-size: 14px;
+}
+#video-list {
+    margin: 28px 0 0 25px ;
+}
+
+#video-list .videoThumb {
+    width: 160px;
+    height: 90px;
+    background-image: url(/assets/images/Thumb.png);
+    margin: 0 16px 16px 0;
+}
+
+
+#video-list .videoList-group {
+    display: flex;
+}
+
+#video-list .videoList-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+#video-list .videoList-desc p {
+    color: #515151;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
